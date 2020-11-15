@@ -9,17 +9,17 @@
     <div class="wrap">
         <div class="title">병충해 자가판독 AI 플랫폼</div>
 
-        <div class="left">
-            <button type="button" onclick="predict()">Predict</button>
+        <!-- Upload image file -->
+        <div class="left-container">
             <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
             <div class="file-upload">
-                <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add
-                    Image</button>
+                <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Image</button>
 
                 <div class="image-upload-wrap">
                     <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
                     <div class="drag-text">
-                        <h3>Drag and drop a file or select add Image</h3>
+                        <img src="img/upload.svg" class="mt-5 pt-5 upload">
+                        <h5>Drag & drop a file <br>or select add Image</h5>
                     </div>
                 </div>
                 <div class="file-upload-content">
@@ -31,9 +31,13 @@
                     </div>
                 </div>
             </div>
+            <button type="button" onclick="predict()">Predict</button>
         </div>
 
-        <div id="label-container"></div>
+        <!-- print result -->
+        <div class="right-container">
+            <div id="label-container">이거는 이런 정보를 가지고 있어서 쏼라쏼라아르르르라다라갂</div>
+        </div>
     </div>
 
     <!--
@@ -101,7 +105,6 @@
             $('.image-upload-wrap').removeClass('image-dropping');
         });
     </script>
-    <div class="left"></div>
 </body>
 
 <!-- Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
