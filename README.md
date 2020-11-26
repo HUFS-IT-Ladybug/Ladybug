@@ -2,8 +2,8 @@
 2020년 한국외대 IT 교육(블록체인 X 인공지능) : 4조 Ladybug🐞
 ## Introduction
 ### 주제: 병해충 AI 자가판톡 및 처방 플랫폼, 병해충알리미(Pest-X)
-* [사업계획서]()
-* [발표 ppt]()
+* [사업계획서](https://github.com/HUFS-IT-Ladybug/Ladybug/blob/main/docs/%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D%EC%84%9C_4%EC%A1%B0.pdf)
+* 발표: [[pdf]](https://github.com/HUFS-IT-Ladybug/Ladybug/blob/main/docs/%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D%EC%84%9C_4%EC%A1%B0.pdf) [[pptx]](https://github.com/HUFS-IT-Ladybug/Ladybug/blob/main/docs/HUFS_%ED%95%B4%EC%BB%A4%ED%86%A4_4%EC%A1%B0.pptx)
 
 ### 팀 구성
 
